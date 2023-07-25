@@ -2,7 +2,7 @@
 
 ## Description
 
-When changing the apollo client instance of the `ApolloProvider` the refetch function provided by the `useLazyQuery` does not change and therefore and outdated version of the apollo client is used to make a request.
+When changing the apollo client instance of the `ApolloProvider` the refetch function provided by the `useLazyQuery` does not change and therefore an outdated version of the apollo client is used to make a request.
 
 It works as expected and the refetch function changes when using `useQuery`.
 
